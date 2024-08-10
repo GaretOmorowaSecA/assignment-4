@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa; /* Light color for nav links */
+}
+
+.navbar-dark .navbar-brand {
+    color: #f8f9fa; /* Light color for brand name */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f0ad4e; /* Highlight color on hover */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,...'); /* Custom icon */
+}
+
+/* Hero section */
+.hero {
+    background-image: url('hero-background.jpg'); /* Hero background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 100px 0; /* Padding for hero section */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Large font size for hero heading */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Font size for hero paragraph */
+}
+
+.hero .btn {
+    margin-top: 20px; /* Margin for button */
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    background-color: #f8f9fa; /* Light background for card body */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 20px 0; /* Padding for footer */
+}
+
+/* Form styling */
+.form-group label {
+    font-weight: bold; /* Bold labels for form */
+}
+
+.form-control {
+    border-radius: 5px; /* Rounded corners for form fields */
+    border: 1px solid #ced4da; /* Light border color */
+}
+
+.btn-primary {
+    background-color: #f0ad4e; /* Custom button color */
+    border-color: #f0ad4e; /* Custom button border color */
+}
+
+.btn-primary:hover {
+    background-color: #ec971f; /* Darker button color on hover */
+    border-color: #ec971f; /* Darker border color on hover */
+}
